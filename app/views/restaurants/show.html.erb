@@ -1,3 +1,7 @@
 <h1><%= @restaurant.name %></h1>
-<h3> <%= @restaurant.address %></h3>
-<h3> <%= @restaurant.category %></h3>
+<ul>
+  <li>Address: <%= @restaurant.address %></li>
+  <li>Category: <%= @restaurant.category %></li>
+</ul>
+
+<%= link_to "Back to all restaurants", restaurants_path, style: 'display: block' %>

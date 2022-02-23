@@ -2,5 +2,5 @@
 
 <ul class="list-group list-group-flush">
   <% @restaurants.each do |restaurant| %>
-    <li class ="list-group-item"><%= link_to restaurant.name, restaurants_path(restaurant) %> </li>
+    <li class ="list-group-item"><%= link_to restaurant.name, restaurant_path(restaurant.id) %> </li>
   <% end %>

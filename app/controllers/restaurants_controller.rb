@@ -28,6 +28,7 @@ class RestaurantsController < ApplicationController
   end
 
 
+
   private
 
   def set_restaurant
